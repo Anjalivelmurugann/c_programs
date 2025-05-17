@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+int avg=97;
+if(avg=95){
+printf("0");
+}
+if(avg=95)
+{
+printf("excellent")
+}
+else{
+printf("great")
+}
+return 0;
+}
+

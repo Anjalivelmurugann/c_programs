@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int x=45;
+ if (0,1){
+     printf("a");
+ printf("b");
+}
+ if(x>50){
+    printf("c");
+}
+else if(x>30){
+    printf("d");
+}
+
+
+    return 0;
+}

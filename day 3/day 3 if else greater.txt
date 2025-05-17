@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+if (5>1>0){
+printf("a");
+}
+else if(5>1){
+    printf("b");
+}
+else {
+    printf("c");
+}
+
+    return 0;
+}
