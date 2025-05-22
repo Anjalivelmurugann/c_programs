@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+char s[]="Happy coding";
+char *str=s;
+int a=0;
+while(*str!='\0'){
+    a++;
+    str++;
+}
+printf("%d",a);
+return 0;
+}

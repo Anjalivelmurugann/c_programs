@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main(){
+int  a=7;
+int *p;
+p=&a;
+printf("%d %d %d %d\n",a,*p,p,&a);
+*p=10;
+printf("%d %d %d %d\n",a,*p,p,&a);
+return 0;
+}

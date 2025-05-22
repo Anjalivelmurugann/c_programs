@@ -1,0 +1,23 @@
+#include <stdio.h>
+int perfect(int x) {
+    int sum = 0;
+    for(int i = 1; i < x; i++) {
+        if(x % i == 0) {
+            sum += i;
+        }
+    }
+    return sum;
+}
+
+int main() {
+    int x;
+    printf("Enter a number: ");
+    scanf("%d", &x);
+    int a = perfect(x);
+    if(a == x)
+        printf("true\n"); 
+    else
+        printf("false\n"); 
+
+    return 0;
+}
